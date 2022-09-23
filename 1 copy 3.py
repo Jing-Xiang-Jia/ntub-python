@@ -1,3 +1,4 @@
-k = float(input("公里數："))
+drink = input("飲料：")
+cups = input("杯數：")
 
 
