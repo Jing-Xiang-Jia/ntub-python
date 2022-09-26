@@ -9,7 +9,7 @@ elif hours < 30 and hours >= 10 :
     total = pay * hours + 10 * hours
 else:
     total = pay * hours + 0
-print(total)
+print(f'共{total:,.0f}元')
 
 
 
