@@ -4,5 +4,5 @@ if set_number % 3 != 0:
     total = 500 * people
 else:
      total = 400 * people
-print(total)
+print(f"共{total:,.0f}元")
     
