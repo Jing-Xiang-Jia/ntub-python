@@ -11,3 +11,5 @@ elif not "N" in ticket_num :
 else: 
     total =  people * 400
 print(total)
+
+#未完成
