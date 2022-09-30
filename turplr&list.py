@@ -16,11 +16,14 @@ else:
 #turple型別
 a = ("2","4","6","8")
 print(a)
+print(a[1])
 print(type(a))
 
 #list型別
 a = ["2","4","6","8"]
 print(a)
 print(type(a))
+a[1]=5
+print(a)
 
 
