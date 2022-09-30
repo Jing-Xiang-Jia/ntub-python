@@ -1,14 +1,9 @@
 ticket_num = str(input("請輸入票號："))
 people = int(input("請輸入人數："))
-if not "T" in ticket_num :
+list = ["T","M","L","N"]
+if ticket_num[0] not in list:
     total =  people * 500
-elif not "M" in ticket_num :
-    total =  people * 500
-elif not "L" in ticket_num :
-    total =  people * 500
-elif not "N" in ticket_num :
-    total =  people * 500
-else: 
+else:
     total =  people * 400
 print(total)
 
