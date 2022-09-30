@@ -1,7 +1,13 @@
-set_area = str(input("請輸入座位區:"))
-people = int(input("請輸入人數:"))
-if set_area == "A" or set_area =="C" or set_area =="E" or set_area =="F" or set_area =="K" :
-    total = 350 * people
-else:
-    total = 550 * people
-print(f"共{total:,.0f}元")
+ticket_num = str(input("請輸入票號："))
+people = int(input("請輸入人數："))
+if "T" not in ticket_num :
+    total =  people * 500
+elif not "M" in ticket_num :
+    total =  people * 500
+elif not "L" in ticket_num :
+    total =  people * 500
+elif not "N" in ticket_num :
+    total =  people * 500
+else: 
+    total =  people * 400
+print(total)
