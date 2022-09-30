@@ -1,6 +1,6 @@
 ticket_num = str(input("請輸入票號："))
 people = int(input("請輸入人數："))
-if "T" not in ticket_num :
+if not "T" in ticket_num :
     total =  people * 500
 elif not "M" in ticket_num :
     total =  people * 500
