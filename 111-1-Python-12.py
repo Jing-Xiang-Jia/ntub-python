@@ -6,5 +6,3 @@ if ticket_num[0] not in list:
 else:
     total =  people * 400
 print(total)
-
-#未完成
