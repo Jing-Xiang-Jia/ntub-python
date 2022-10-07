@@ -9,4 +9,4 @@ elif code == "C":
     price = 175 * num
 elif code == "D":
     price = 185 * num
-print(f"{price:.0f}元")
+print(f"{price:,}元")
