@@ -1,6 +1,3 @@
-from re import S
-
-
 chinese = int(input())
 english = int(input())
 book = str(input())
